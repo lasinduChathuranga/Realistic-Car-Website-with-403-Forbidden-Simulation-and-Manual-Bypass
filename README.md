@@ -1,4 +1,4 @@
-# 🚗 Realistic Car Website with 403 Forbidden Simulation and Manual Bypass
+# 🚗 Realistic Car Website with 403 Forbidden Simulation and Manual Bypass 
 
 This project simulates a **real-world web access restriction (403 Forbidden)** on a realistic car advertisement website hosted locally on **Kali Linux Apache Server**. It demonstrates how **access restrictions** can be enforced using `.htaccess` and how attackers may attempt to **bypass** these protections using HTTP header spoofing.
 
