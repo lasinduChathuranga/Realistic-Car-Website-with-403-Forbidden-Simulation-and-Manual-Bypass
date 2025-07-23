@@ -31,7 +31,7 @@ This project simulates a **real-world web access restriction (403 Forbidden)** o
             sudo apt install apache2
             sudo service apache2 start
 
-# Access default Apache page: http://localhost/ OR firefox http://localhost/carweb/
+### Access default Apache page: http://localhost/ OR firefox http://localhost/carweb/
 
 ### 🔹 Step 2: Create Website Directory
             sudo mkdir /var/www/html/carweb
