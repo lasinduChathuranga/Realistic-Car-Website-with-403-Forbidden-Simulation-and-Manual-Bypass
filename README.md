@@ -90,30 +90,30 @@ Best practices in web access control configuration
 
 ### 📝 Summary of Commands
 
-# Install & start Apache
-sudo apt install apache2
-sudo service apache2 start
-
-# Create project folder
-sudo mkdir /var/www/html/carweb
-cd /var/www/html/carweb
-
-# Create HTML, CSS, image
-sudo nano index.html
-
-# Enable .htaccess
-sudo nano /etc/apache2/apache2.conf
-# Change AllowOverride to All
-
-# Restart server
-sudo service apache2 restart
-
-# Create protection
-sudo nano .htaccess
-# Add deny/allow rules
-
-# Test bypass
-curl http://localhost/carweb/ -H "X-Forwarded-For: 127.0.0.1"
+            # Install & start Apache
+            sudo apt install apache2
+            sudo service apache2 start
+            
+            # Create project folder
+            sudo mkdir /var/www/html/carweb
+            cd /var/www/html/carweb
+            
+            # Create HTML, CSS, image
+            sudo nano index.html
+            
+            # Enable .htaccess
+            sudo nano /etc/apache2/apache2.conf
+            # Change AllowOverride to All
+            
+            # Restart server
+            sudo service apache2 restart
+            
+            # Create protection
+            sudo nano .htaccess
+            # Add deny/allow rules
+            
+            # Test bypass
+            curl http://localhost/carweb/ -H "X-Forwarded-For: 127.0.0.1"
 
 🔐 Disclaimer
 This project is strictly for educational purposes. Do not attempt unauthorized access to systems you do not own or have permission to test.
